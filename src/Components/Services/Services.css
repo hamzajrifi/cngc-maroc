@@ -1,0 +1,33 @@
+.bar-1 {
+    text-align: center;
+    font-size: x-large;
+    background-color: #123E70;
+    height: 70px;
+}
+
+.bar-1 p {
+    color: #F1F6F5;
+    text-align: center;
+    padding: 1.5% 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block-service {
+    width: 340px;
+    height: 450px;
+    border: 1px solid #123E70;
+    margin: 28px;
+    border-radius: 10px;
+}
+
+.block-service{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
