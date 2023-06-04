@@ -1,0 +1,19 @@
+.partenaires {
+    text-align: center;
+    margin-top: 60px;
+}
+.partenaires h1 {
+    font-size: 60px;
+}
+.img-partenaires {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0;
+}
+.img-partenaires img {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px  #123E70;
+    width: 220px;
+    height: 150px;
+}
