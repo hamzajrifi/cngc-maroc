@@ -55,6 +55,12 @@ p.desc-service {
     color: #000000;
 }
 
+.btn-show-me{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .block-service a {
     background-color: #123E70;
     color: #F1F6F5;

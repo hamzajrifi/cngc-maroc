@@ -17,7 +17,9 @@ export default function Services() {
           <h1 className='title-service'>Service</h1>
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
-          <a href=''> Show me more</a>
+          <div className='btn-show-me'>
+            <a href=''> Show me more</a>
+          </div>
         </div>
         <div className='block-service'>
           <div className='icon-service'>
@@ -26,7 +28,9 @@ export default function Services() {
           <h1 className='title-service'>Service</h1>
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
-          <a href=''> Show me more</a>
+          <div className='btn-show-me'>
+            <a href=''> Show me more</a>
+          </div>
         </div>
         <div className='block-service'>
           <div className='icon-service'>
@@ -35,7 +39,9 @@ export default function Services() {
           <h1 className='title-service'>Service</h1>
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
-          <a href=''> Show me more</a>
+          <div className='btn-show-me'>
+            <a href=''> Show me more</a>
+          </div>
         </div>
         <div className='block-service'>
           <div className='icon-service'>
@@ -44,7 +50,9 @@ export default function Services() {
           <h1 className='title-service'>Service</h1>
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
-          <a href=''> Show me more</a>
+          <div className='btn-show-me'>
+            <a href=''> Show me more</a>
+          </div>
         </div>
         <div className='block-service'>
           <div className='icon-service'>
@@ -53,7 +61,9 @@ export default function Services() {
           <h1 className='title-service'>Service</h1>
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
-          <a href=''> Show me more</a>
+          <div className='btn-show-me'>
+            <a href=''> Show me more</a>
+          </div>
         </div>
         <div className='block-service'>
           <div className='icon-service'>
@@ -62,7 +72,9 @@ export default function Services() {
           <h1 className='title-service'>Service</h1>
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
-          <a href=''> Show me more</a>
+          <div className='btn-show-me'>
+            <a href=''> Show me more</a>
+          </div>
         </div>
         <div className='block-service'>
           <div className='icon-service'>
@@ -71,7 +83,9 @@ export default function Services() {
           <h1 className='title-service'>Service</h1>
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
-          <a href=''> Show me more</a>
+          <div className='btn-show-me'>
+            <a href=''> Show me more</a>
+          </div>
         </div>
         <div className='block-service'>
           <div className='icon-service'>
@@ -80,7 +94,9 @@ export default function Services() {
           <h1 className='title-service'>Service</h1>
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
-          <a href=''> Show me more</a>
+          <div className='btn-show-me'>
+            <a href=''> Show me more</a>
+          </div>
         </div>
       </main>
     </>

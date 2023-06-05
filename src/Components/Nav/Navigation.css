@@ -1,7 +1,7 @@
 
 .top-nav {
     background-color: #123E70;
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,6 @@
     top: 0;
     width: 100%;
     overflow: hidden;
-
 }
 
 .logo-nav {

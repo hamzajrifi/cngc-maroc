@@ -4,7 +4,7 @@
     margin-top: 61px;
     height: 400px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -57,3 +57,10 @@
     margin-left: 6%;
     border: #F1F6F5 solid 3px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
