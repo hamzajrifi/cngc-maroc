@@ -6,14 +6,14 @@ export default function Navigation() {
             <div className='logo-nav'>
                 <a href='/'>
                     <img src='assets/img/logo.png' alt='img-logo-nav-cngc' />
-                    <p >CNGC-Maroc</p>
+                    <h1 >CNGC-Maroc</h1>
                 </a>
             </div>
             <div className='nav-content'>
                 <a href='/'>Home</a>
-                <a href='#'> Services </a>
+                <a href='#services'> Services </a>
                 <a href='/nospack'> Nos pack</a>
-                <a href='#'> About</a>
+                <a href='#'> About us</a>
             </div>
         </nav>
     )

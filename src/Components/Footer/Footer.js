@@ -1,5 +1,4 @@
 import React from 'react'
-import './Footer.css'
 
 export default function Footer() {
     return (
@@ -8,7 +7,7 @@ export default function Footer() {
                 <div className='logo-nav logo-footer'>
                     <a href='#'>
                         <img src='assets/img/logo.png' alt='img-logo-footer-cngc' />
-                        <p >CNGC-Maroc</p>
+                        <h1 >CNGC-Maroc</h1>
                     </a>
                 </div>
                 <p className='text-info-footer'>société MAROFISCAL SARL comptable Agréé par l'Etat</p>

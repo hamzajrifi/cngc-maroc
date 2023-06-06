@@ -16,7 +16,7 @@
     margin: 15px 30px;
 }
 
-.services {
+#services {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -78,4 +78,15 @@ p.desc-service {
 
 .block-service:hover  {
     background-color: #8b92cec2;
+}
+
+.title-services{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.title-services h1{
+    font-size: 72px;
+    margin-top: 30px;
 }

@@ -27,14 +27,14 @@
     border-radius: 30px;
 }
 
-.logo-nav a p {
+.logo-nav a h1 {
     font-size: 30px;
-    font-weight: 500;
     line-height: 48px;
     text-align: center;
     margin: 0 3%;
+    font-weight: 800;
     height: 54px;
-    width: 189px;
+    width: 199px;
 }
 
 .nav-content {

@@ -3,7 +3,6 @@ import Side from './Slide/Side'
 import Services from './Services/Services'
 import Bar from './bar/Bar'
 import NosPartenaires from './NosPartenaires/NosPartenaires'
-import Footer from './Footer/Footer'
 
 export default function Home() {
     return (
@@ -12,7 +11,6 @@ export default function Home() {
             <Services />
             <Bar />
             <NosPartenaires />
-            <Footer />
         </>
     )
 }

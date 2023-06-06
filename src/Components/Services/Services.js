@@ -4,12 +4,14 @@ import './Services.css'
 export default function Services() {
   return (
     <>
-      <div className='bar-1'>
+      <div className='bar-1' id='services'>
         <img src='assets/img/icon-service.png' />
         <p> L’externalisation comptable au service de la gestion d’entreprise</p>
       </div>
-
-      <main className='services'>
+      <div className='title-services'>
+        <h1 >Nos Services</h1>
+      </div>
+      <main id='services'>
         <div className='block-service'>
           <div className='icon-service'>
             <img src='assets/img/chart-icon.png' />
