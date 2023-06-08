@@ -1,19 +1,20 @@
 import React from 'react'
 import "./Navigation.css"
+import { Link } from 'react-router-dom'
 export default function Navigation() {
     return (
         <nav className='top-nav'>
             <div className='logo-nav'>
-                <a href='/'>
+                <Link to='/'>
                     <img src='assets/img/logo.png' alt='img-logo-nav-cngc' />
                     <h1 >CNGC-Maroc</h1>
-                </a>
+                </Link>
             </div>
             <div className='nav-content'>
-                <a href='/'>Home</a>
-                <a href='#services'> Services </a>
-                <a href='/nospack'> Nos pack</a>
-                <a href='#'> About us</a>
+                <Link to='/'>Home</Link>
+                <Link to='#services'> Services </Link>
+                <Link to='/nospack'> Nos pack</Link>
+                <Link to='/aboutus'> About us</Link>
             </div>
         </nav>
     )

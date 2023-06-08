@@ -1,0 +1,100 @@
+.aboutusPage{
+    width: 100%;
+}
+
+.aboutus-slid{
+    height: 739px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+}
+
+.content-aboutus{
+    text-align: center;
+}
+
+.content-aboutus h1{
+    font-size: 82px;
+    margin-bottom: 20px;
+}
+.content-aboutus p{
+    font-size: 28px;
+    width: 650px;
+    margin: auto;
+}
+
+
+.text-bar-contactus{
+    font-size: 52px;
+}
+
+.info-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 470px;
+    grid-gap: 60px 70px;
+    justify-content: center;
+    align-content: center;
+}
+
+.info-content{
+    background: linear-gradient(156deg, rgba(183,198,213,1) 2%, rgba(241,246,245,1) 100%);
+    box-shadow: 0px 0px 10px 0.1px #123E70;
+    height: 152px;
+    width: 635px; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 36% 60%;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.item-info img{
+    width: 130px;
+    text-align: center;
+}
+
+.text-content-info, div.btn-contact{
+    font-size: 22px;
+}
+
+section.map-section {
+    width: 70%;
+    margin:  0px auto 50px auto;
+    box-shadow: 0px 0px 10px 0.1px #123E70;
+}
+
+.btn-contact{
+    text-align: center;
+    width: 100%;
+    margin: 100px auto;
+}
+
+a.btn-2, a.btn-1 , .btn-form-rendez-vous button{
+    box-shadow: 0px 0px 10px 0.1px #123E70;
+    padding: 14px 52px;
+    border-radius: 100px;
+    margin: auto 70px;
+    font-weight: bold;
+}
+
+a.btn-2 , .btn-form-rendez-vous .btn-2{
+    background-color: #123E70;
+    color: #F1F6F5;
+    border: #F1F6F5 4px solid;
+}
+a.btn-1, .btn-form-rendez-vous .btn-1{
+    background-color: #F1F6F5;
+    color: #123E70;
+    border: #123E70 4px solid;
+}

@@ -7,8 +7,8 @@ export default function Side() {
                 <p className='title-content'>L’externalisation comptable</p>
                 <p className='desc-content'>au service de la gestion d’entreprise</p>
                 <div className='btn-slide'>
-                    <a className='btn1' href='#'>Contact us</a>
-                    <a className='btn2' href='#'>Rendez-vous</a>
+                    <a className='btn1' href='/contactus'>Contact us</a>
+                    <a className='btn2' href='/rendezvous'>Rendez-vous</a>
                 </div>
             </div>
             <div className='img-slide'>

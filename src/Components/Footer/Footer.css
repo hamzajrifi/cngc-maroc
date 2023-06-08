@@ -52,11 +52,12 @@ footer {
 .forClient,
 .Horaires {
     background-color: #F1F6F5;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
-.forClient div {
-    display: flex;
+.forClient .footer-info {
+    display: grid;
+    grid-template-columns: 20% 70%;
 }
 
 .icon-address {
@@ -76,7 +77,9 @@ footer {
 
 .text-horaires {
     border-top: #123E70 2px solid;
-    margin: 13px 0;
     font-size: 18px;
-    padding: 0 12px;
+    display: grid;
+    height: 30px;
+    padding-left: 20px;
+    align-items: center;
 }

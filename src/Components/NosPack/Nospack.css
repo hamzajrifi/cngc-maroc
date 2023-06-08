@@ -1,6 +1,5 @@
 .title-packs {
     font-size: 72px;
-    margin-bottom: 50px;
     border-bottom: 5px solid #123E70;
 }
 
@@ -10,16 +9,15 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 1000px;
-    justify-content: center;
-    margin-bottom: 30px;
-        
+    height: 860px;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .packs {
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 100%;
+    width: 80%;
     justify-content: space-evenly;
 }
 
@@ -148,7 +146,7 @@
     border-radius: 100px;
     text-align: center;
     border: #F1F6F5 1px solid;
-    z-index: 100;
+    z-index: 10;
     box-shadow: 0px 0px  8px #123E70;
     justify-content: center;
     display: flex;

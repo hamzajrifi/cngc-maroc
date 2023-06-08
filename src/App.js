@@ -4,6 +4,10 @@ import Navigation from './Components/Nav/Navigation';
 import Nospack from './Components/NosPack/Nospack';
 import Footer from './Components/Footer/Footer';
 import './Components/Footer/Footer.css'
+import Aboutus from './Components/Aboutus/Aboutus';
+import Formcontact from './Components/Formcontact/Formcontact';
+import RendezVous from './Components/Rendez-vous/Rendez-vous';
+import PageService from './Components/pageService/PageService';
 
 function App() {
   return (
@@ -14,6 +18,10 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/nospack" exact element={<Nospack />} />
+          <Route path="/aboutus" exact element={<Aboutus />} />
+          <Route path="/contactus" exact element={<Formcontact />} />
+          <Route path="/rendezvous" exact element={<RendezVous />} />
+          <Route path="/Pageservice" exact element={<PageService />} />
         </Routes>
         <Footer />
       </div>

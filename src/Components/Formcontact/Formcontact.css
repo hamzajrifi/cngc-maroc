@@ -1,0 +1,74 @@
+section.slid-form {
+    background-color: #123e7072;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    height: 770px;
+}
+
+form.content-form, #regForm{
+    background-color: #F1F6F5;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #123e70;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 6px;
+}
+
+.img-form img{
+    width: 850px;
+    height: 650px;
+}
+
+.content-form .item1{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+form .item-form, #regForm .item-rendez-vous{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .item-form input , .item-rendez-vous select{
+    font-size: 18px;
+    padding: 0px 24px;
+    height: 50px;
+    margin: auto 10px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0000001f;
+    box-shadow: 0px 0px 2px 1px #123e70;
+}
+form .item-form label, .item-rendez-vous label{
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 32px;
+}
+.g-form{
+        width: 600px;
+}
+form .btn-form{
+    display: flex;
+    justify-self: center;
+    background-color: #123e70;
+    width: 270px;
+    box-shadow: 0px 0px 8px 1px #123e70;
+    justify-content: center;
+    align-items: center;
+    border: #F1F6F5 4px solid;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+form .btn-form a{
+    text-align: center;
+    color: #F1F6F5;
+    padding:  10px 5px;
+    font-weight: bold;
+    font-size: 32px;
+}

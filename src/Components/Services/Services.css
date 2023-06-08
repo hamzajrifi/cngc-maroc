@@ -21,6 +21,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+    width: 80%;
+    margin: auto;
 }
 
 .block-service {

@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .img-slide img {
@@ -48,6 +49,14 @@
     font-weight: 500;
     padding: 10px;
     border: #123E70 solid 3px;
+    box-shadow: 0px 0px 3px #123e70;
+}
+
+.btn-slide .btn1 {
+    background-color: #F1F6F5;
+    color: #123E70;
+    margin-left: 6%;
+    border: #123E70 solid 3px;
 }
 
 .btn-slide .btn2 {
@@ -56,10 +65,3 @@
     margin-left: 6%;
     border: #F1F6F5 solid 3px;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }

@@ -1,0 +1,32 @@
+#wizard-rendezVous {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#wizard-rendezVous h1 {
+    font-size: 72px;
+    margin: 30px;
+}
+
+#regForm{
+    margin-bottom: 50px;
+}
+
+.item-rendez-vous select{
+    width: 900px;
+}
+
+#regForm textarea {
+    display: none;
+}
+.btn-form-rendez-vous{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-form-rendez-vous button {
+    margin: 10px;
+}
