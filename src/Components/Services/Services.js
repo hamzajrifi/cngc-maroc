@@ -2,6 +2,16 @@ import React from 'react'
 import './Services.css'
 import { Link } from 'react-router-dom'
 
+const Service = [
+  {title:"Formation", img:"assets/img/domiciliation.jpeg" ,content:"text lorem epsom"},
+  {title:"Formation", img:"assets/img/domiciliation.jpeg" ,content:"text lorem epsom"},
+  {title:"Formation", img:"assets/img/domiciliation.jpeg" ,content:"text lorem epsom"},
+  {title:"Formation", img:"assets/img/domiciliation.jpeg" ,content:"text lorem epsom"},
+  {title:"Formation", img:"assets/img/domiciliation.jpeg" ,content:"text lorem epsom"},
+  {title:"Formation", img:"assets/img/domiciliation.jpeg" ,content:"text lorem epsom"},
+  {title:"Formation", img:"assets/img/domiciliation.jpeg" ,content:"text lorem epsom"},
+  {title:"Formation", img:"assets/img/domiciliation.jpeg" ,content:"text lorem epsom"}
+]
 export default function Services() {
   return (
     <>
@@ -21,7 +31,8 @@ export default function Services() {
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
           <div className='btn-show-me'>
-            <Link to=''> Show me more</Link>
+          <Link to="/Servicepage" state={{Service:Service[1]}}> 
+          Show me more</Link>
           </div>
         </div>
         <div className='block-service'>
@@ -65,7 +76,7 @@ export default function Services() {
           <p className='desc-service'>description about service lorem epsom not all
             but should write somthing .</p>
           <div className='btn-show-me'>
-            <Link to="/Servicepage" state={{Service: {title:"Formation", content:"text lorem epsom"}}}> 
+            <Link to="/Servicepage" state={{Service:Service[2]}}> 
               Show me more
             </Link>
           </div>

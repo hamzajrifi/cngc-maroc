@@ -21,7 +21,7 @@ function App() {
           <Route path="/aboutus" exact element={<Aboutus />} />
           <Route path="/contactus" exact element={<Formcontact />} />
           <Route path="/rendezvous" exact element={<RendezVous />} />
-          <Route path="/Pageservice" exact element={<PageService />} />
+          <Route path="/Servicepage" exact element={<PageService />} />
         </Routes>
         <Footer />
       </div>

@@ -1,0 +1,42 @@
+.pageService{
+    height: 700px;
+}
+.Slide-service{
+    margin-top: 135px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.img-slide-service {
+    margin:  auto;
+
+}
+
+.img-slide-service img{
+    width: 780px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #123e70;
+}
+
+.content-text-service{
+    width: 600px;
+    text-align: center;
+}
+.content-text-service .title-service{
+    font-size: 62px;
+    margin: 20px;
+}
+.text-service{
+    font-size: 24px;
+}
+.barServiseSlide{
+    background-color: #F1F6F5;
+    height: 433px;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    z-index: -1;
+    box-shadow: 0px 0px 11px 0.002px #123E70;
+}
