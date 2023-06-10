@@ -45,12 +45,14 @@
     border: 4px solid #F1F6F5;
     box-shadow: #123E70 0px 0px 4px;
     width: 99px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100px;
     line-height: 11;
 }
 .icon-service img{
-    width: 80%;
+    width: 70%;
 }
 p.desc-service {
     font-size: 24px;

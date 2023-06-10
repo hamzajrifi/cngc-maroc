@@ -59,7 +59,7 @@ export default function Services() {
       <main id='services'>
         <div className='block-service'>
           <div className='icon-service'>
-            <img src='assets/img/chart-icon.png' alt='icon-chart'/>
+            <img src='assets/img/work-list.png' alt='icon-chart'/>
           </div>
           <h1 className='title-service'>Création D'entreprise</h1>
           <p className='desc-service'>description about service lorem epsom not all
@@ -71,7 +71,7 @@ export default function Services() {
         </div>
         <div className='block-service'>
           <div className='icon-service'>
-            <img src='assets/img/chart-icon.png' alt='icon-chart' />
+            <img src='assets/img/statistik.png' alt='icon-chart' />
           </div>
           <h1 className='title-service'>Domiciliation</h1>
           <p className='desc-service'>description about service lorem epsom not all
@@ -83,7 +83,7 @@ export default function Services() {
         </div>
         <div className='block-service'>
           <div className='icon-service'>
-            <img src='assets/img/chart-icon.png' alt='icon-chart'/>
+            <img src='assets/img/cashback.png' alt='icon-chart'/>
           </div>
           <h1 className='title-service'>Comptabilité & Fiscalité</h1>
           <p className='desc-service'>description about service lorem epsom not all
@@ -95,7 +95,7 @@ export default function Services() {
         </div>
         <div className='block-service'>
           <div className='icon-service'>
-            <img src='assets/img/chart-icon.png' alt='icon-chart' />
+            <img src='assets/img/revenue.png' alt='icon-chart' />
           </div>
           <h1 className='title-service'>Déclarations fiscales</h1>
           <p className='desc-service'>description about service lorem epsom not all
@@ -107,7 +107,7 @@ export default function Services() {
         </div>
         <div className='block-service'>
           <div className='icon-service'>
-            <img src='assets/img/chart-icon.png' alt='icon-chart' />
+            <img src='assets/img/strategy.png' alt='icon-chart' />
           </div>
           <h1 className='title-service'>Formation</h1>
           <p className='desc-service'>description about service lorem epsom not all
@@ -120,7 +120,7 @@ export default function Services() {
         </div>
         <div className='block-service'>
           <div className='icon-service'>
-            <img src='assets/img/chart-icon.png' alt='icon-chart' />
+            <img src='assets/img/report.png' alt='icon-chart' />
           </div>
           <h1 className='title-service'>Conseil</h1>
           <p className='desc-service'>description about service lorem epsom not all
@@ -132,7 +132,7 @@ export default function Services() {
         </div>
         <div className='block-service'>
           <div className='icon-service'>
-            <img src='assets/img/chart-icon.png' alt='icon-chart' />
+            <img src='assets/img/chart.png' alt='icon-chart' />
           </div>
           <h1 className='title-service'>Traitement de la Paie</h1>
           <p className='desc-service'>description about service lorem epsom not all
@@ -144,7 +144,7 @@ export default function Services() {
         </div>
         <div className='block-service'>
           <div className='icon-service'>
-            <img src='assets/img/chart-icon.png' alt='icon-chart' />
+            <img src='assets/img/income.png' alt='icon-chart' />
           </div>
           <h1 className='title-service'>Solutions informatiques </h1>
           <p className='desc-service'>description about service lorem epsom not all
