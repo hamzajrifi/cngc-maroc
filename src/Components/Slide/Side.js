@@ -1,14 +1,15 @@
 import React from 'react'
 import './Side.css'
+import { Link } from 'react-router-dom'
 export default function Side() {
     return (
         <main className='slide'>
             <div className='text-slid'>
-                <p className='title-content'>L’externalisation comptable</p>
+                <h1 className='title-content'>L’externalisation comptable</h1>
                 <p className='desc-content'>au service de la gestion d’entreprise</p>
                 <div className='btn-slide'>
-                    <a className='btn1' href='/contactus'>Contact us</a>
-                    <a className='btn2' href='/rendezvous'>Rendez-vous</a>
+                    <Link className='btn1' href='/contactus'>Contact us</Link>
+                    <Link className='btn2' href='/rendezvous'>Rendez-vous</Link>
                 </div>
             </div>
             <div className='img-slide'>

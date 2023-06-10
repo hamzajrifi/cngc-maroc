@@ -3,8 +3,8 @@
 }
 
 .aboutus-slid {
-    height: 739px;
     width: 80%;
+    padding: 65px;
     margin: auto;
     display: grid;
     align-items: center;
@@ -105,7 +105,8 @@ a.btn-2,
 }
 
 a.btn-1,
-.btn-form-rendez-vous .btn-1 {
+.btn-form-rendez-vous .btn-1 ,
+    .nav-content .btn-1 {
     background-color: #F1F6F5;
     color: #123E70;
     border: #123E70 4px solid;

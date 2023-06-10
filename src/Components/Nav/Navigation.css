@@ -39,11 +39,14 @@
 }
 
 .nav-content {
-    margin-right: 6%;
+    margin-right: 4%;
 }
 
 .nav-content a {
     color: #F1F6F5;
     font-size: 24px;
     margin: 24px;
+}
+.nav-content .btn-1 {
+    margin: auto 30px;
 }

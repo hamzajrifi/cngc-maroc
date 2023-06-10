@@ -22,7 +22,7 @@
 }
 
 .content-text-service{
-    width: 730px;
+    width: 800px;
     text-align: center;
 }
 .content-text-service .title-service{
@@ -34,7 +34,7 @@
 }
 .barServiseSlide{
     background-color: #F1F6F5;
-    height: 433px;
+    height: 500px;
     position: absolute;
     top: 180px;
     width: 100%;
@@ -42,5 +42,8 @@
     box-shadow: 0px 0px 11px 0.002px #123E70;
 }
 ul.list-service{
+    font-size: 19px;
+
     margin:20px;
+    text-align: justify;
 }

@@ -15,6 +15,7 @@ export default function Navigation() {
                 {/* <Link to='#services'> Services </Link> */}
                 <Link to='/nospack'> Nos pack</Link>
                 <Link to='/aboutus'> About us</Link>
+                <Link className='btn-1' to='/rendezvous'> Rendez-Vous</Link>
             </div>
         </nav>
     )
