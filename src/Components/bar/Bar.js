@@ -10,7 +10,7 @@ export default function Bar() {
                 <h3 className=''> Découvrez nos Packs et réglez en ligne.</h3>
                 <p className=''>TARIFS & COMMANDE</p>
             </div>
-            <Link to='#'>CONSULTEZ NOTRE OFFRE</Link>
+            <Link to='/nospack'>CONSULTEZ NOTRE OFFRE</Link>
         </div>
     )
 }

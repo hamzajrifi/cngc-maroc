@@ -6,13 +6,18 @@ footer {
     justify-content: space-evenly;
 }
 
+.info-footer {
+    margin-left: 4%;
+    padding-left: 10%;
+}
+
 .info-footer,
 .forClient,
 .Horaires {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 350px;
+    width: 45%;
     height: 370px;
     border: #123E70 3px solid;
 }
@@ -46,7 +51,6 @@ footer {
 
 .grid-footer{
     display: flex;
-    width: 900px;
     justify-content: space-around;
 }
 .forClient,

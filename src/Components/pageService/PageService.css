@@ -1,27 +1,28 @@
-.pageService{
-    height: 700px;
+.heigh-top{
+    height: 20px;
 }
 .Slide-service{
-    margin-top: 135px;
-    height: 350px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-items: center;
+    margin: 3% 0;
 }
 
 .img-slide-service {
-    margin:  auto;
-
+    /* margin:  auto; */
+    display: flex;
+    justify-content: center;
 }
 
 .img-slide-service img{
-    width: 780px;
+    width: 80%;
     border-radius: 20px;
     box-shadow: 0px 0px 8px #123e70;
 }
 
 .content-text-service{
-    width: 600px;
+    width: 730px;
     text-align: center;
 }
 .content-text-service .title-service{
@@ -39,4 +40,7 @@
     width: 100%;
     z-index: -1;
     box-shadow: 0px 0px 11px 0.002px #123E70;
+}
+ul.list-service{
+    margin:20px;
 }

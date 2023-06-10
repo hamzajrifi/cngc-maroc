@@ -21,7 +21,7 @@ export default function Aboutus() {
                     <h3 className='text-bar-contactus'> Contact us</h3>
                     <p className=''>Or Take Rendez-Vous</p>
                 </div>
-                <Link to='/rendez-vous'>TAKE RENDEZ-VOUS</Link>
+                <Link to='/rendezvous'>TAKE RENDEZ-VOUS</Link>
             </div>
 
             <section className='info-section'>

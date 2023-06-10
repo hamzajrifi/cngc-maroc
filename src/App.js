@@ -23,8 +23,8 @@ function App() {
           <Route path="/rendezvous" exact element={<RendezVous />} />
           <Route path="/Servicepage" exact element={<PageService />} />
         </Routes>
-        <Footer />
       </div>
+        <Footer />
     </BrowserRouter>
   );
 }

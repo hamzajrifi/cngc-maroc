@@ -12,7 +12,7 @@ export default function Navigation() {
             </div>
             <div className='nav-content'>
                 <Link to='/'>Home</Link>
-                <Link to='#services'> Services </Link>
+                {/* <Link to='#services'> Services </Link> */}
                 <Link to='/nospack'> Nos pack</Link>
                 <Link to='/aboutus'> About us</Link>
             </div>
