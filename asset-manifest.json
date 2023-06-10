@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hamzajrifi/cngc-maroc/static/css/main.aa1a15d2.css",
+    "main.js": "/hamzajrifi/cngc-maroc/static/js/main.b8e6c039.js",
+    "static/js/787.762953e1.chunk.js": "/hamzajrifi/cngc-maroc/static/js/787.762953e1.chunk.js",
+    "index.html": "/hamzajrifi/cngc-maroc/index.html",
+    "main.aa1a15d2.css.map": "/hamzajrifi/cngc-maroc/static/css/main.aa1a15d2.css.map",
+    "main.b8e6c039.js.map": "/hamzajrifi/cngc-maroc/static/js/main.b8e6c039.js.map",
+    "787.762953e1.chunk.js.map": "/hamzajrifi/cngc-maroc/static/js/787.762953e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa1a15d2.css",
+    "static/js/main.b8e6c039.js"
+  ]
+}
