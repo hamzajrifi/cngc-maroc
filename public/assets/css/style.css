@@ -23,3 +23,108 @@ body {
 .top-body{
     margin-top: 81px;
 }
+
+div#root{
+    max-width: 1920px;
+    margin: auto;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px)  {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+@media only screen and (max-width: 768px) {
+    .nav-content {
+        display: none;
+    }
+    .slide {
+        padding: 103px ;
+        grid-gap: 45px 0 ;
+    }
+    .slide , .bar-1, footer, .bar-2, .grid-footer{
+        display: grid  !important;
+        justify-items: center  !important;
+        align-items: center  !important;
+        grid-template-columns: auto !important;
+    }
+    .info-footer, .forClient, .Horaires {
+       width:  max-content !important;
+    }
+    .bar-2{
+        padding: 0% !important;
+    }
+    .img-partenaires img {
+        width: 140px  !important;
+        height: 112px !important;
+    }
+    .text-info-footer , .forClient .footer-info p{
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* nav */
+.nav-content a {
+    font-size: 15px !important;
+    margin: 4px !important;
+    }
+    .nav-content {
+        margin: 0 !important;
+    }
+    a.btn-2, a.btn-1, .btn-form-rendez-vous button {
+        padding: 6px 10px !important;
+    }
+/* end nav */
+/* nos partenaires*/
+.img-partenaires {
+    display: grid  !important;
+    margin: 46px 0 !important;
+    grid-template-columns: 1fr 1fr !important;
+    align-items: center !important;
+    justify-items: center !important;
+    grid-gap: 50px 0 !important;
+}
+/* end nos partenaires*/
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and (max-width: 1206px) {
+/* nav */
+.nav-content a {
+    font-size: 15px !important;
+    margin: 7px !important;
+    }
+    .nav-content {
+        margin: 0 !important;
+    }
+    a.btn-2, a.btn-1, .btn-form-rendez-vous button {
+        padding: 6px 10px !important;
+    }
+/* end nav */
+/* nos partenaires*/
+.img-partenaires {
+    display: grid  !important;
+    margin: 46px 0 !important;
+    grid-template-columns: 1fr 1fr !important;
+    align-items: center !important;
+    justify-items: center !important;
+    grid-gap: 50px 0 !important;
+}
+/* end nos partenaires*/
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

@@ -1,6 +1,6 @@
 ul {list-style-type: none;}
 .month {
-    padding: 70px 25px;
+    padding: 25px;
     background: #123E70;
     text-align: center;
   }
@@ -32,7 +32,13 @@ ul {list-style-type: none;}
     padding: 10px 0;
     background-color: #ddd;
   }
-  
+  .slid-calendar {
+    width: 932px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px #123e70;
+  }
+
   .weekdays li {
     display: inline-block;
     width: 13.6%;
@@ -52,7 +58,8 @@ ul {list-style-type: none;}
     width: 13.6%;
     text-align: center;
     margin-bottom: 5px;
-    font-size:12px;
+    height: 30px;
+    font-size: 20px;
     color: #777;
   }
   

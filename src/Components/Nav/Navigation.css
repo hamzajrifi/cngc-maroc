@@ -10,6 +10,8 @@
     position: fixed;
     top: 0;
     width: 100%;
+    border-radius: 5px;
+    max-width: 1920px;
     overflow: hidden;
     z-index: 100;
 }

@@ -15,7 +15,6 @@ export default function Side() {
             <div className='img-slide'>
                 <img src='assets/img/teamwork.jpeg'  alt='teamwork-icon'/>
             </div>
-
         </main>
     )
 }

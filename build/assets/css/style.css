@@ -23,3 +23,8 @@ body {
 .top-body{
     margin-top: 81px;
 }
+
+div#root{
+    max-width: 1920px;
+    margin: auto;
+}
