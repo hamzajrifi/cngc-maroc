@@ -7,7 +7,7 @@ export default function Navigation() {
             <div className='logo-nav'>
                 <Link to='/'>
                     <img src='assets/img/logo.png' alt='img-logo-nav-cngc' />
-                    <h1 >CNGC-Maroc</h1>
+                    <h1 >CGNC-Maroc</h1>
                 </Link>
             </div>
             <div className='nav-content'>
