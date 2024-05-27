@@ -11,7 +11,7 @@ export default function Footer() {
                         <h1 >CNGC-Maroc</h1>
                     </Link>
                 </div>
-                <p className='text-info-footer'>société MAROFISCAL SARL comptable Agréé par l'Etat</p>
+                <p className='text-info-footer'>société CGNCMAROC SARL comptable Agréé par l'Etat</p>
                 <div className='cosial-icon'>
                     <img src='assets/img/icon-facebook.png' alt='icon-facebook'/>
                     <img src='assets/img/whatssap-icon.png' alt='icon-whatssap'/>
